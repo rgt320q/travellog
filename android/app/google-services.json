@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "586726449700",
+    "project_id": "travellog-4fe94",
+    "storage_bucket": "travellog-4fe94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586726449700:android:69f51e743bb76bb7216eb1",
+        "android_client_info": {
+          "package_name": "com.cetinsoft.travellog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586726449700-vn3uskag7os7t1su7nh0oaduvgoloigk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cetinsoft.travellog",
+            "certificate_hash": "9c20e412e06701b37d084f97e42d5b36651cfc89"
+          }
+        },
+        {
+          "client_id": "586726449700-tj4cvhe78h2cvk70t7abtpv3qi61iafu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoq06Yi_w29BZ6F31hiec2BFa5XigSD8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586726449700-tj4cvhe78h2cvk70t7abtpv3qi61iafu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "586726449700-4tjfhjm7nfabsn2jdo842ug8tkeurgf3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.travellog"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

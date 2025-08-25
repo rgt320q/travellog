@@ -1,0 +1,17 @@
+Geliştirmeyi android emulatör ü kallanarak test edelim lütfen.Kullanıcının login olarak açtığı ve harita üzerinden konum işareti yaptığı bu işaretleri gruplandırabildiği ve Kullanıcı belirlediği uzaklık çapındaki tüm işaretli noktalar için yada istediği grup yada gruplar için rota oluşturabildiği bir flutter uygulaması. Kullanıcının oluşturduğu rota duraklarına gelindiğinde o durak ile ilgili vikipedi gibi bilgi içeren sitelerde bilgi varsa ekrana bir uyarı gönderip bu bilgiye ulaşabilsin. seçili konum bilgileri üzerinde o konumda ihtiyaç duyulan şeyleri not alabilsin. Kullanıcı gezi rotası oluştururken not aldığı şeyleri konsolide ederek "bu gezide ihtiyacınız olanlar" şeklinde listelesin. Seçilen noktalar için ayrıca özel notlar varsa, "bu gezi için aldığınız özel notlar" şeklinde gösterilsin. Notlar ile ilgili Örnek olarak: ihtiyaç listesine seçili nokta 1 için terlik 2 için havlu 3 için havlu terlik 4 için güneş kremi 5 için bozuk para olarak ihtiyaç girilmiş olsun. Rota oluşturulduğunda "bu gezi için ihtiyaçlarınız terlik, havlu, güneş kremi ve bozuk para." olarak belirtsin. Özel notlar için ise ayrıca 1. konum için "otopark sorun" 2. "otopark sorun" 3. noktaya "buraya akşam git" 4. noktaya "hafta içi git." şeklinde notları ayrıca gösterelim. Rota oluşturulduğunda toplam yol süresi gösterilsin. Ayrıca her seçili konumda kullanıcı tarafından girilen "konumda geçirilmesi beklen süre(saat,dakika)" olarak giriş yapılabilsin. "Kullanıcıya yolda geçmesi beklenen süre=…", Konumlarda geçirilmesi beklenen süre=…" ve "gezi için toplam beklenen süre=…" şeklinde bilgilendirme gösterelim. Kullanıcı ilgili konumda girdiği konumda geçirilmesi beklenen sürenin sonuna geldiğinde yada istediği bir süre kadar önce uyarı gönderelim.
+
+--------------
+
+Düzeltmeler
+
+-Konum düzeltme ekranında konum ismini de düzenleye bilelim.
+-Tahmini süre: place holder ve yanına küçük bir i butonu ekleyip tıklandığında "konumda geçirilmesi düşünülen tahmini süre." şeklinde bilgilendirme yapalım.
+-Harita ekranına bulunduğu konuma gitmesini sağlayan butonu ekleyelim.
+-Konum işaretçi simgesini googel haritalardakiler ile aynı yapalım. Bulunduğu konumda da Google haritalardaki ile aynı olsun.
+-Seçmiş olduğu konum ile ilgili vikipedi de bilgi varsa konum listesi içinde de gösterelim. wikipedi logosu olsa yeter kullanıcı üstüne basınca ilgili makaleye yönlendirelim.
+-Kullanıcı ihtiyaç listesini oluştururken aynı objeyi farklı harfler kullanarak yazarsa onu konsolide edebilir miyiz bi bakalım. Örnek: Müzekart, muzekart, müze kart. Yada Su, su, SU vb.
+-Form yazı ve görsellerini animasyonlu ve modern hale getirelim.
+
+
+Yeni isim önerileri.
+- LocNote

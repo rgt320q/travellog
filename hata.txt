@@ -1,0 +1,54 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                           warning: [options] source value 8 is obsolete and will be removed in a future release
+Running Gradle task 'assembleDebug'...                           warning: [options] target value 8 is obsolete and will be removed in a future release
+Running Gradle task 'assembleDebug'...                           warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Running Gradle task 'assembleDebug'...                           3 warnings
+Running Gradle task 'assembleDebug'...                           Note: Some input files use or override a deprecated API.
+Running Gradle task 'assembleDebug'...                           Note: Recompile with -Xlint:deprecation for details.
+Running Gradle task 'assembleDebug'...                           warning: [options] source value 8 is obsolete and will be removed in a future release
+Running Gradle task 'assembleDebug'...                           warning: [options] target value 8 is obsolete and will be removed in a future release
+Running Gradle task 'assembleDebug'...                           warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Running Gradle task 'assembleDebug'...                           3 warnings
+warning: [options] source value 8 is obsolete and will be removed in a future release
+warning: [options] target value 8 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+3 warnings
+Running Gradle task 'assembleDebug'...                             58.7s
+✓ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...          574ms
+D/FlutterJNI( 9272): Beginning load of flutter...
+D/FlutterJNI( 9272): flutter (null) was loaded normally!
+I/flutter ( 9272): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterGeolocator( 9272): Attaching Geolocator to activity
+E/flutter ( 9272): [ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: Instance of 'FileNotFoundError'
+E/flutter ( 9272): #0      DotEnv._getEntriesFromFile (package:flutter_dotenv/src/dotenv.dart:172:7)
+E/flutter ( 9272): <asynchronous suspension>
+E/flutter ( 9272): #1      DotEnv.load (package:flutter_dotenv/src/dotenv.dart:124:23)
+E/flutter ( 9272): <asynchronous suspension>
+E/flutter ( 9272): #2      main (package:travellog/main.dart:9:3)
+E/flutter ( 9272): <asynchronous suspension>
+E/flutter ( 9272):
+Syncing files to device sdk gphone64 x86 64...                     115ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:63119/jH5dsNm5bfQ=/
+D/FlutterGeolocator( 9272): Creating service.
+D/FlutterGeolocator( 9272): Binding to location service.
+I/Choreographer( 9272): Skipped 41 frames!  The application may be doing too much work on its main thread.
+D/FlutterGeolocator( 9272): Geolocator foreground service connected
+D/FlutterGeolocator( 9272): Initializing Geolocator services
+D/FlutterGeolocator( 9272): Flutter engine connected. Connected engine count 1
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at:
+http://127.0.0.1:9101?uri=http://127.0.0.1:63119/jH5dsNm5bfQ=/
+D/ProfileInstaller( 9272): Installing profile for com.example.travellog
+I/ample.travellog( 9272): Thread[6,tid=9279,WaitingInMainSignalCatcherLoop,Thread*=0x7292164376f0,peer=0x13140240,"Signal Catcher"]: reacting to signal 3
+I/ample.travellog( 9272):
+I/ample.travellog( 9272): Wrote stack traces to tombstoned
+Lost connection to device.
